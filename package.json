@@ -1,12 +1,13 @@
 {
-  "name": "developerortfolio",
+  "name": "developerportfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "now-build": "next build"
   },
   "dependencies": {
     "next": "11.0.0",
