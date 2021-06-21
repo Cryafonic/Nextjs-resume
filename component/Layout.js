@@ -1,4 +1,3 @@
-import layoutStyles from '../styles/layout.module.css';
 import Nav from '../component/Nav';
 import Head from 'next/head';
 
@@ -15,7 +14,7 @@ const Layout = ({children}) => {
                 />
             </Head>
             <Nav />
-            <div className={layoutStyles.container}>
+            <div className='container'>
                 <p>{children}</p>
             </div>
             <footer>
