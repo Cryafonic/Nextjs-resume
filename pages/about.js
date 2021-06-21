@@ -1,5 +1,3 @@
-import aboutStyles from '../styles/layout.module.css';
-
 // showcasing my exprience and education with the use of jsx styling.
 const about = () => {
     return (

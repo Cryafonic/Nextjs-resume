@@ -1,4 +1,3 @@
-
 // Project page where im showing all my code projects.
 // bootstrap is being used here and my own styling with jsx.
 import Image from 'next/image';
