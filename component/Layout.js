@@ -14,7 +14,7 @@ const Layout = ({children}) => {
                 />
             </Head>
             <Nav />
-            <div className='container'>
+            <div className='container-fluid background'>
                 <p>{children}</p>
             </div>
             <footer>
@@ -26,9 +26,13 @@ const Layout = ({children}) => {
                 crossorigin="anonymous"
             />
             <style jsx>{`
-                div {
+                .background {
                     background-color: #171717;
                     height: 100%;
+                    min-height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
                 }
                 footer {
                     background-color: #171717;
