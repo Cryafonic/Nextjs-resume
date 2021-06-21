@@ -1,4 +1,3 @@
-
 // contact page with jsx styling aplied to it and the use of bootstarp icons
 const contact = () => {
     return (

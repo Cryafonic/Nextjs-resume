@@ -1,4 +1,4 @@
-import layoutStyles from '../styles/Layout.module.css';
+import layoutStyles from '../styles/layout.module.css';
 import Nav from '../component/Nav';
 import Head from 'next/head';
 
