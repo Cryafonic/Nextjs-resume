@@ -1,9 +1,9 @@
 // Project page where im showing all my code projects.
 // bootstrap is being used here and my own styling with jsx.
 import Image from 'next/image';
-import reactResume from '../static/images/React-resume.png';
-import reactMinesweeper from '../static/images/React-Minesweeper.png';
-import iTunesSearch from '../static/images/iTunes-search.png';
+import reactResume from '../static/images/React-resume.PNG';
+import reactMinesweeper from '../static/images/React-Minesweeper.PNG';
+import iTunesSearch from '../static/images/iTunes-search.PNG';
 
 const project = () => {
     return (
