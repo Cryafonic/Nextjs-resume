@@ -12,6 +12,23 @@ const Layout = ({ children }) => {
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
           crossorigin="anonymous"
         />
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-NQHYSPZ6KC`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NQHYSPZ6KC', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
       </Head>
       <Nav />
       <div className="container-fluid background">
@@ -25,14 +42,6 @@ const Layout = ({ children }) => {
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"
       />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQHYSPZ6KC"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'G-NQHYSPZ6KC');
-        </script>
       <style jsx>{`
         .background {
           background-color: #171717;
