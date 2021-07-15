@@ -23,9 +23,7 @@ const Layout = ({ children }) => {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-NQHYSPZ6KC', {
-              page_path: window.location.pathname,
-            });
+            gtag('config', 'G-NQHYSPZ6KC');
           `,
             }}
           />
