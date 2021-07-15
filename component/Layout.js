@@ -12,7 +12,6 @@ const Layout = ({ children }) => {
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
           crossorigin="anonymous"
         />
-        {/* Global site tag (gtag.js) - Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQHYSPZ6KC"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
