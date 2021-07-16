@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-NQHYSPZ6KC`}
+            src={`https://www.googletagmanager.com/gtag/js?id=UA-202548093-1`}
           />
           <script
             dangerouslySetInnerHTML={{
@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-NQHYSPZ6KC');
+            gtag('config', 'UA-202548093-1');
           `,
             }}
           />
